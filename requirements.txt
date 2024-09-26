@@ -1,0 +1,7 @@
+functions-framework==3.5.0
+Flask==2.3.2
+google-cloud-pubsub==2.14.1
+google-cloud-bigquery==3.10.0
+gunicorn==20.1.0 
+
+
