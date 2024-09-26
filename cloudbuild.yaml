@@ -5,4 +5,4 @@ steps:
     
 logsBucket: '${_LOGS_BUCKET_NAME}'
 options:
-  logging: GCS_ONLY
+  logging: CLOUD_LOGGING_ONLY
