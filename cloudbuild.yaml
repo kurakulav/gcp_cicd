@@ -1,4 +1,3 @@
 steps:
- - name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
-   entrypoint:'gsutil'
+ - name:'gcr.io/cloud-builders/gsutil'
 args: [ 'cp','test.py','gs://us-east1-composer1airflow-13a88369-bucket/dags/test.py' ]
