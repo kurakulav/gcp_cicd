@@ -2,3 +2,6 @@ steps:
   # Copy a file to Google Cloud Storage
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['cp', 'test.py', 'gs://us-east1-composer1airflow-13a88369-bucket/dags/test.py']
+    logsBucket: '${_LOGS_BUCKET_NAME}'
+options:
+  logging: GCS_ONLY
